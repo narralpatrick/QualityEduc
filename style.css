@@ -82,13 +82,7 @@
        gap: 30px;
        padding: 20px;
   {
-      width: 100%;
-      max-width: auto;
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 30px;
-      padding: 20px;
-     }  
+  
      .text-concontainer {
        flex: 1 1 400px;
        padding: 20px;
@@ -171,6 +165,7 @@
  
 
  
+
 
 
 
