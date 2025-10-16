@@ -1,4 +1,4 @@
-    body {
+     body {
       margin: 0;
       font-family: Arial, sans-serif;
       background: #f4f4f4;
@@ -76,13 +76,12 @@
 
     }
    
-     .grid-container1,  .grid-container2 {
-       display: grid;
-       grid-template-columns: 1fr 1fr;
-       gap: 30px;
-       padding: 20px;
-  {
-  
+     .grid-container1, .grid-container2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 30px;
+      padding: 20px;
+     }  
      .text-concontainer {
        flex: 1 1 400px;
        padding: 20px;
@@ -152,19 +151,10 @@
       .mission2 {
        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
       }
-      
-      
-      
-
-      
-
      
-
-
-    
+      
  
 
- 
 
 
 
