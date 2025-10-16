@@ -1,0 +1,171 @@
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+    }
+
+     nav {
+      background: #fff;
+      text-align: center;
+      padding: 15px;
+      position: sticky;
+      top: 0;
+      z-index: 1000;      
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: blue;
+    }
+
+    
+    main {
+      margin: 0;
+    }
+
+    header {
+      
+      background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+              url("bks.jpg") no-repeat center center/cover;
+      height: 400px;
+      display: flex;
+      position: sticky;
+      flex-direction: column ;
+      justify-content: center;
+      align-items: center;  
+      text-align: center;
+      color: rgb(255, 255, 255);
+      background-attachment:fixed;
+      
+    }   
+
+
+    header h1 {
+      font-size: 45px;
+      margin: 0;
+      text-shadow: 2px 2px 6px rgba(0,0,0,0.8);
+    }
+
+    header p {
+       font-size: 20px;
+       margin: 0;
+       text-shadow: 2px 2px 6px rgba(0,0,0,0.8);
+    }
+    
+
+   
+
+    .content {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 20px;
+      background: rgba(255,255,255,0.95);
+      border-radius: 12px;
+      box-shadow: 0px 4px 15px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .content p {
+      font-size: 18px;
+      line-height: 1.6;
+      margin-bottom: 16px;
+      color: #555;
+
+    }
+   
+     .grid-container1 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 30px;
+      padding: 20px;
+     }  
+     .text-concontainer {
+       flex: 1 1 400px;
+       padding: 20px;
+       border-radius: 20px;
+       box-shadow: 0px 4px 15px rgba(0,0,0,0.1);
+     }
+     .text-concontainer h2 {
+       font-size: 28px;
+       margin-bottom: 20px;
+       color: #222;
+      }
+      .text-concontainer p {
+        font-size: 18px;
+        line-height: 1.6;
+        margin-bottom: 16px;
+        color: #555;
+      }
+
+
+      .quality-education-section {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 50px 20px;
+        align-items: center;
+         justify-content: center;
+        gap: 40px;
+        background-color: #ffffff;
+      }   
+
+      .image-container {
+        flex: 1 1 400px;
+        text-align: center;
+      } 
+
+      .image-container img {
+        width: 100%;
+        max-width: 600px;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      }
+
+      .text-container {
+        flex: 1 1 400px;
+        padding: 20px;
+      }
+
+      .text-container h2 {
+        font-size: 28px;
+        margin-bottom: 20px;
+        color: #222;
+      }
+
+      .text-container p {
+        font-size: 18px;
+       line-height: 1.6;
+       margin-bottom: 16px;
+       color: #555;
+      }
+
+      .mission {
+       text-align: center;
+      }
+      .mission1 {
+       box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+       
+       }
+      .mission2 {
+       box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      }
+      .grid-container2 {
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+       gap: 30px;
+       padding: 20px;
+  
+      }
+      
+      
+
+      
+
+     
+
+
+    
+ 
+ 
