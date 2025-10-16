@@ -1,4 +1,4 @@
-  body {
+body {
       margin: 0;
       font-family: Arial, sans-serif;
       background: #f4f4f4;
@@ -23,9 +23,6 @@
     }
 
     
-    main {
-      margin: 0;
-    }
 
     header {
       
@@ -39,7 +36,7 @@
       align-items: center;  
       text-align: center;
       color: rgb(255, 255, 255);
-      background-attachment:fixed;
+      
       
     }   
 
@@ -76,12 +73,6 @@
 
     }
    
-     .grid-container1 {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 30px;
-      padding: 20px;
-     }  
      .text-concontainer {
        flex: 1 1 400px;
        padding: 20px;
@@ -141,26 +132,10 @@
        color: #555;
       }
 
-      .mission {
-       text-align: center;
-      }
-      .mission1 {
-       box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-       
-       }
-      .mission2 {
-       box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-      }
-     .grid-container2 {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 30px;
-      padding: 20px;
-     }  
-
    
      
       
+
 
 
 
