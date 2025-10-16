@@ -31,7 +31,7 @@
       
       background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
               url("bks.jpg") no-repeat center center/cover;
-      height: 300px;
+      height: 400px;
       display: flex;
       position: sticky;
       flex-direction: column ;
@@ -60,7 +60,7 @@
    
 
     .content {
-      max-width: 100%;
+      max-width: 600px;
       margin: 30px auto;
       padding: 20px;
       background: rgba(255,255,255,0.95);
@@ -118,7 +118,7 @@
 
       .image-container img {
         width: 100%;
-        max-width: 100%;
+        max-width: 600px;
         border-radius: 10px;
         box-shadow: 0 4px 10px rgba(0,0,0,0.1);
       }
@@ -158,6 +158,7 @@
       
 
       
+
 
 
 
