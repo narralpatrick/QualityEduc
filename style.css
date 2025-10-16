@@ -152,15 +152,11 @@
        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
       }
 
-      .grid-container1 {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 30px;
-      padding: 20px;
-      }  
+   
      
       
       
+
 
 
 
