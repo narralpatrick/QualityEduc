@@ -3,7 +3,7 @@
       font-family: Arial, sans-serif;
       background: #f4f4f4;
     }
-
+     @media (max-width: 600px) {
      nav {
       background: #fff;
       text-align: center;
@@ -151,11 +151,13 @@
       .mission2 {
        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
       }
+     }
 
    
      
       
       
+
 
 
 
