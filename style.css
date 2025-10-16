@@ -30,7 +30,7 @@
       
       background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
               url("bks.jpg") no-repeat center center/cover;
-      width: 90%;
+      height: 300px;
       display: flex;
       position: sticky;
       flex-direction: column ;
@@ -131,6 +131,7 @@
 
    
      
+
 
 
 
