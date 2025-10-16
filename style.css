@@ -1,4 +1,4 @@
-        body {
+       body {
       margin: 0;
       font-family: Arial, sans-serif;
       background: #f4f4f4;
@@ -60,7 +60,7 @@
    
 
     .content {
-      max-width: 900px;
+      max-width: 100%;
       margin: 30px auto;
       padding: 20px;
       background: rgba(255,255,255,0.95);
@@ -76,7 +76,7 @@
 
     }
    
-     .grid-container1, .grid-container2 {
+     .grid-container1 {
       display: grid;
       grid-template-columns: 1fr 1fr;
       gap: 30px;
@@ -153,6 +153,12 @@
       }
      
       
+      
+
+      
+
+      
+
 
 
 
