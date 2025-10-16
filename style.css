@@ -60,7 +60,7 @@
    
 
     .content {
-      max-width: 100%;
+      max-width: 800px;
       margin: 30px auto;
       padding: 20px;
       background: rgba(255,255,255,0.95);
@@ -151,12 +151,18 @@
       .mission2 {
        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
       }
-     }
+     .grid-container1 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 30px;
+      padding: 20px;
+     }  
 
    
      
       
       
+
 
 
 
